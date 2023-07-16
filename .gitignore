@@ -1,0 +1,12 @@
+/.vs
+/src/Achitecture.Api/bin
+/src/Achitecture.Api/obj
+/src/Achitecture.Application/bin
+/src/Achitecture.Application/obj
+/src/Achitecture.Domain/bin
+/src/Achitecture.Domain/obj
+/src/Achitecture.Infrastructure/bin
+/src/Achitecture.Infrastructure/obj
+/src/Achitecture.Repository/bin
+/src/Achitecture.Repository/obj
+*.user

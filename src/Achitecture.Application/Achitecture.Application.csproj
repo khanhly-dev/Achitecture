@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Achitecture.Domain\Achitecture.Domain.csproj" />
+    <ProjectReference Include="..\Achitecture.Repository\Achitecture.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BusinessCatalog\ProductHandle\Queries\GetListPagingProduct\Validators\" />
+  </ItemGroup>
+
+</Project>
